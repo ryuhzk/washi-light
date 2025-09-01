@@ -1,0 +1,119 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#faf7f0"
+# Base
+
+# Main text color
+theme[main_fg]="#3c3836"
+# Text
+
+# Title color for boxes
+theme[title]="#458588"
+# Subtle
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#cc241d"
+# Text
+
+# Background color of selected item in processes box
+theme[selected_bg]="#cc241d"
+# HL High
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#faf7f0"
+# Gold
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#928374"
+# HL Med
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#689d6a"
+# Foam
+
+# Background color of the percentage meters
+theme[meter_bg]="#458588"
+# Foam
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#b16286"
+# Iris
+
+# Cpu box outline color
+theme[cpu_box]="#cc241d"
+# Rose
+
+# Memory/disks box outline color
+theme[mem_box]="#98971a"
+# Pine
+
+# Net up/down box outline color
+theme[net_box]="#b16286"
+# Iris
+
+# Processes box outline color
+theme[proc_box]="#d79921"
+# Love
+
+# Box divider line and small boxes line color
+theme[div_line]="#ebdbb2"
+# Muted
+
+# Temperature graph colors
+theme[temp_start]="#cc241d"
+# Rose
+theme[temp_mid]="#d79921"
+# Gold
+theme[temp_end]="#fe8019"
+# Love
+
+# CPU graph colors
+theme[cpu_start]="#d79921"
+# Gold
+theme[cpu_mid]="#cc241d"
+# Rose
+theme[cpu_end]="#fe8019"
+# Love
+
+# Mem/Disk free meter
+# all love
+theme[free_start]="#98971a"
+theme[free_mid]="#98971a"
+theme[free_end]="#98971a"
+
+# Mem/Disk cached meter
+# all iris
+theme[cached_start]="#b16286"
+theme[cached_mid]="#b16286"
+theme[cached_end]="#b16286"
+
+# Mem/Disk available meter
+# all pine
+theme[available_start]="#458588"
+theme[available_mid]="#458588"
+theme[available_end]="#458588"
+
+# Mem/Disk used meter
+# all rose
+theme[used_start]="#cc241d"
+theme[used_mid]="#cc241d"
+theme[used_end]="#cc241d"
+
+# Download graph colors
+# Pine for start, foam for the rest
+theme[download_start]="#458588"
+theme[download_mid]="#689d6a"
+theme[download_end]="#689d6a"
+
+# Upload graph colors
+theme[upload_start]="#98971a"
+# Rose for start
+theme[upload_mid]="#fe8019"
+# Love for mid and end
+theme[upload_end]="#fe8019"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#458588"
+# Pine
+theme[process_mid]="#689d6a"
+# Foam for mid and end
+theme[process_end]="#689d6a"
